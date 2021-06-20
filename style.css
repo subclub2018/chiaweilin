@@ -1,0 +1,54 @@
+section {
+  font-size: 42px;
+  text-align: center;
+  color: rgb(83, 46, 15);
+  font-weight: bold;
+  font-family: 'Dela Gothic One', cursive;  
+  background-color: beige;
+}
+
+h2{
+  top: 10%;
+}
+
+.btn-buynow {
+  border:2px solid transparent;
+  color:#fff;
+  font-size:13px;
+  padding:15px 35px;
+  background:#4d1f0d;
+  margin-top:10px;
+}
+.btn-buynow:hover {
+  opacity:0.8;
+  color:#fff;
+}
+
+@media (max-width:768px) {
+
+  section {
+  
+    font-size: 42px;
+    text-align: center;
+    color: rgb(83, 46, 15);
+    font-weight: bold;
+    font-family: 'Dela Gothic One', cursive;
+    
+    background-color: beige;
+  }
+  
+  .btn-buynow {
+    border:2px solid transparent;
+    color:#fff;
+    font-size:13px;
+    padding:15px 35px;
+    background:#dd64b9;
+    margin-top:10px;
+  }
+  .btn-buynow:hover {
+    opacity:0.8;
+    color:#fff;
+  }
+
+  
+}
