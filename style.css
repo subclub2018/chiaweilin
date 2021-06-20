@@ -5,6 +5,16 @@ section {
   font-weight: bold;
   font-family: 'Dela Gothic One', cursive;  
   background-color: beige;
+  width: 35%;
+}
+
+img {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+img:hover {
+  opacity:0.6;
+  filter:alpha(opacity=60); 
 }
 
 h2{
@@ -35,6 +45,7 @@ h2{
     font-family: 'Dela Gothic One', cursive;
     
     background-color: beige;
+    width: 80%;
   }
   
   .btn-buynow {
@@ -42,7 +53,7 @@ h2{
     color:#fff;
     font-size:13px;
     padding:15px 35px;
-    background:#dd64b9;
+    background:#4d1f0d;
     margin-top:10px;
   }
   .btn-buynow:hover {
